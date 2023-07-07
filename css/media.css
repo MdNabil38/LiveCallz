@@ -1,0 +1,64 @@
+/* reesponsibe css start  */
+@media(max-width:1024px) {
+    .footer_position img {
+      width: 65%;
+    }
+    .process {
+        height: 490px;
+    }
+  }
+  
+  @media(max-width:991px) {
+    .industry_item {
+      min-height: 50vh;
+      height: inherit;
+    }
+    .process {
+        min-height: 40vh;
+        height: inherit;
+    }
+    .industry_image img {
+      width: 15%;
+    }
+    .choose {
+        padding: 25px 20px;
+    }
+    .question {
+      margin-top: -180px;
+  }
+  footer {
+    text-align: center;
+  }
+  .footer_logo{
+    display: none;
+  }
+  .footer_logo2 {
+    display: inherit;
+    width: auto;
+    margin-top: 20px;
+  }
+  .footer_position img {
+    width: 100%;
+  }
+  }
+  @media(max-width:575px){
+    .footer_call {
+        display: contents;
+    }
+    .footer_position img {
+      height: 400px;
+  }
+  .footer_call p {
+    margin: 10px;
+}
+  }
+  @media(max-width:435px){
+    .process {
+        padding: 65px 20px 30px 20px;
+        min-height: 40vh;
+        height: inherit;
+    }
+    .navbar-brand {
+        width: 50%;
+    }
+  }
